@@ -66,12 +66,12 @@ a {
 
 .about-content {
     text-align: center;
-    width: 65%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .about-content p {
-    font-size: 1rem;
-    line-height: 1.8rem;
+    font-size: 1.1rem;
+    line-height: 1.9rem;
     margin-top: 0.5rem;
 }
