@@ -196,3 +196,35 @@ a {
     height: 10px;
     margin-top: 24px;
 }
+
+/* ############################### Projects END ############################## */
+
+@media screen and (max-width: 1020px) {
+    .makere {
+        display: none;
+    }
+    
+    .denom {
+        display: none;
+    }
+    
+    .tankstars {
+        display: none;
+    }
+
+    .ivy-logo {
+        display: none;
+    }
+    
+    .kaggle-logo {
+        display: none;
+    }
+
+    .scaletorch-logo {
+        display: none;
+    }
+
+    .melodet {
+        display: none;
+    }
+}
