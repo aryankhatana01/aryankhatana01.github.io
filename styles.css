@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cantarell&family=Inconsolata:wght@600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -52,12 +54,14 @@ a {
 /* ############################### NAVBAR ENDS ############################## */
 
 
+/* ############################### ABOUT START ############################## */
+
 .section-title {
     text-align: center;
     font-family: 'Inconsolata';
     width: 76%;
     margin: 2rem auto;
-    margin-top: 80px;
+    margin-top: 120px;
     font-size: 1.5rem;
     font-weight: 500;
     padding-bottom: 1rem;
@@ -74,4 +78,39 @@ a {
     font-size: 1.1rem;
     line-height: 1.9rem;
     margin-top: 0.5rem;
+}
+/* ############################### ABOUT ENDS ############################## */
+
+.exp-content {
+    width: 76%;
+    margin: 0 auto;
+}
+
+.exp-title {
+    display: inline-block;
+    border-bottom: 3px solid rgb(98, 97, 97);
+    padding-bottom: 0.5rem;
+}
+
+.exp-title h3 {
+    font-weight: 500;
+}
+
+.content-left-exp1 p {
+    font-size: 0.7rem;
+    margin-top: 0.5rem;
+    color: rgb(100, 100, 100);
+}
+
+.exp1-content {
+    margin-top: 1rem;
+    padding-left: 2rem;
+    font-weight: 400;
+    font-size: 0.8rem;
+    width: 70%;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: space-between;
 }
