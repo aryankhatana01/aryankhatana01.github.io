@@ -6,6 +6,34 @@
     box-sizing: border-box;
 }
 
+.wrapper {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 body {
     font-family: "Poppins";
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.box-shadow-nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+}
+
+a {
+    text-decoration: none;
+    color: black;
 }
