@@ -135,3 +135,64 @@ a {
     height: 120px;
     margin-right: 2rem;
 }
+
+/* ############################### Projects START ############################## */
+.ext-links {
+    height: 18px;
+    width: 18px;
+}
+
+.makere {
+    height: 200px;
+    width: 230px;
+    border-radius: 10px;
+    margin-top: -30px
+}
+
+.denom {
+    height: 180px;
+    width: 180px;
+}
+
+.tankstars {
+    height: 150px;
+    width: 240px;
+    border-radius: 10px;
+    margin-top: -30px
+}
+
+
+.c {
+    width: 40px;
+    height: 40px;
+}
+
+.skills-top-row {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    gap: 10px;
+    align-items: center;
+}
+
+.footer-text {
+    font-family: 'Cantarell', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: rgb(70, 70, 70);
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-div {
+    margin-top: 3rem;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+}
+
+.copyright {
+    width: 10px;
+    height: 10px;
+    margin-top: 24px;
+}
