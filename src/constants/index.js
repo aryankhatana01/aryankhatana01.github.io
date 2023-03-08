@@ -28,6 +28,7 @@ import melodet from "../assets/melodet.png";
 import cf from "../assets/cf_rec.png";
 import gpt from "../assets/gpt.png";
 import tankstars from "../assets/my-assets/tankstars.png";
+import subgen from "../assets/subgen.png";
 
 
 export const navLinks = [
@@ -189,12 +190,33 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "neural net",
+        name: "fastapi",
         color: "pink-text-gradient",
       },
     ],
     image: unblueai,
     source_code_link: "https://github.com/aryankhatana01/unblurai-new",
+  },
+  {
+    name: "Subgen",
+    description:
+      "A full stack web app that gen generate subtitles for you videos using OpenAI-Whisper.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "openai",
+        color: "green-text-gradient",
+      },
+      {
+        name: "fastapi",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: subgen,
+    source_code_link: "https://github.com/aryankhatana01/whisper-subtitles",
   },
   {
     name: "Melanoma Detection",

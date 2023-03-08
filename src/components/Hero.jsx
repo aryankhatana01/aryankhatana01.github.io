@@ -19,8 +19,7 @@ const Hero = () => {
               Hi, I'm <span className='text-[#915EFF]'>Aryan</span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-              I train Machine Learning Models and <br className='sm:block hidden' />
-              Neural Networks.
+              I like to train Deep Neural Networks.
             </p>
           </div>
         </div>
