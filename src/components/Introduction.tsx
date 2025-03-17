@@ -69,13 +69,13 @@ const Introduction = () => {
             >
               View projects
             </a>
-            <a
+            {/* <a
               href="https://drive.google.com/file/d/1xp84daZnv7yVwjyKlEACA6cm-Ev999L4/view?usp=sharing"
               target="_blank"
               className="px-4 py-2 bg-secondary text-secondary-foreground rounded-md transition-transform hover:scale-[1.02]"
             >
               Resume
-            </a>
+            </a> */}
           </div>
         </RevealAnimation>
       </div>
