@@ -1,38 +1,39 @@
-
-import React, { useEffect } from 'react';
-import Header from '../components/Header';
-import Introduction from '../components/Introduction';
-import Experience from '../components/Experience';
-import Projects from '../components/Projects';
-import Skills from '../components/Skills';
-import Achievements from '../components/Achievements';
-import Footer from '../components/Footer';
+import React, { useEffect } from "react";
+import Header from "../components/Header";
+import Introduction from "../components/Introduction";
+import Experience from "../components/Experience";
+import Projects from "../components/Projects";
+import Skills from "../components/Skills";
+import Achievements from "../components/Achievements";
+import Footer from "../components/Footer";
+// import Contact from "../components/Contact";
 
 const Index = () => {
   // Handle smooth scrolling for Safari
   useEffect(() => {
     const handleLinkClick = (e: MouseEvent) => {
       const target = e.target as HTMLElement;
-      const isNavLink = target.tagName === 'A' && target.getAttribute('href')?.startsWith('#');
-      
+      const isNavLink =
+        target.tagName === "A" && target.getAttribute("href")?.startsWith("#");
+
       if (isNavLink) {
         e.preventDefault();
-        const href = target.getAttribute('href') as string;
+        const href = target.getAttribute("href") as string;
         const sectionId = href.substring(1);
         const section = document.getElementById(sectionId);
-        
+
         if (section) {
           const offsetTop = section.offsetTop;
           window.scrollTo({
             top: offsetTop,
-            behavior: 'smooth'
+            behavior: "smooth",
           });
         }
       }
     };
 
-    document.addEventListener('click', handleLinkClick);
-    return () => document.removeEventListener('click', handleLinkClick);
+    document.addEventListener("click", handleLinkClick);
+    return () => document.removeEventListener("click", handleLinkClick);
   }, []);
 
   return (
@@ -44,6 +45,7 @@ const Index = () => {
         <Projects />
         <Skills />
         <Achievements />
+        {/* <Contact /> */}
       </main>
       <Footer />
     </div>

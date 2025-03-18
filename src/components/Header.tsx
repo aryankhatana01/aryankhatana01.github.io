@@ -49,6 +49,11 @@ const Header = () => {
                 Achievements
               </a>
             </li>
+            {/* <li>
+              <a href="#contact" className="nav-link">
+                Contact
+              </a>
+            </li> */}
           </ul>
         </nav>
       </div>
