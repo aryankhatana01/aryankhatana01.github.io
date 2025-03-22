@@ -7,14 +7,16 @@ const Introduction = () => {
     <section id="about" className="py-12">
       <div className="section-container py-6">
         <RevealAnimation>
-          <span className="inline-block px-3 py-1 bg-secondary text-secondary-foreground text-sm font-medium rounded-full mb-3">
-            Machine Learning Engineer
+          <span className="inline-block px-3 py-1 bg-secondary text-sm font-medium rounded-full mb-3">
+            <span className="bg-gradient-to-r from-indigo-700 to-sky-700 dark:from-blue-300 dark:to-teal-400 bg-clip-text text-transparent">
+              Machine Learning Engineer
+            </span>
           </span>
         </RevealAnimation>
 
         <RevealAnimation delay={100}>
-          <h1 className="text-3xl md:text-4xl lg:text-5xl font-medium mb-3 bg-gradient-to-r from-cyan-300 via-purple-400 to-pink-500 text-transparent bg-clip-text">
-            Aryan Khatana
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-3">
+            Hi, I'm Aryan Khatana!
           </h1>
         </RevealAnimation>
 
