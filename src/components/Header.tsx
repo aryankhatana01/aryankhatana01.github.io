@@ -51,11 +51,11 @@ const Header = () => {
                   Skills
                 </a>
               </li>
-              <li>
+{/*               <li>
                 <a href="#achievements" className="nav-link">
                   Achievements
                 </a>
-              </li>
+              </li> */}
               {/* <li>
                 <a href="#contact" className="nav-link">
                   Contact
