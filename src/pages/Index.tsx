@@ -200,10 +200,13 @@ const Index = () => {
                         </div>
                         <div className="w-full">
                           <AccordionTrigger className="p-0 hover:no-underline">
-                            <div className="font-medium text-left">{e.role} · {e.company}</div>
+                            <div className="text-left">
+                              <div className="font-medium">{e.company}</div>
+                              <div className="text-xs text-muted-foreground font-normal">{e.role}</div>
+                            </div>
                           </AccordionTrigger>
                           <AccordionContent>
-                            <p className="text-sm text-muted-foreground mt-1">{e.desc}</p>
+                            <p className="text-sm mt-1">{e.desc}</p>
                           </AccordionContent>
                         </div>
                       </div>
@@ -215,6 +218,24 @@ const Index = () => {
           </div>
         </section>
 
+
+        <section id="projects" ref={projRef} className="mt-12 animate-fade-in">
+          <h2 className="text-xl font-medium mb-6">Projects</h2>
+          <div className="grid sm:grid-cols-2 gap-4">
+            {projects.map((p) => (
+              <Card key={p.name} className="hover-scale">
+                <CardContent className="p-4">
+                  <div className="font-medium">{p.name}</div>
+                  <p className="text-sm text-muted-foreground mt-1">{p.desc}</p>
+                  <a href={p.link} className="story-link text-sm mt-2 inline-block" aria-label={`View ${p.name}`}>
+                    View project
+                  </a>
+                </CardContent>
+              </Card>
+            ))}
+          </div>
+        </section>
+        
         <section id="education" ref={eduRef} className="mt-12 animate-fade-in">
           <h2 className="text-xl font-medium mb-6">Education</h2>
           <div className="relative">
@@ -235,7 +256,8 @@ const Index = () => {
                         </Avatar>
                       </div>
                       <div>
-                        <div className="font-medium">{ed.degree} · {ed.school}</div>
+                        <div className="font-medium">{ed.school}</div>
+                        <div className="text-xs text-muted-foreground font-normal">{ed.degree}</div>
                         <p className="text-sm text-muted-foreground mt-1">{ed.desc}</p>
                       </div>
                     </div>
@@ -243,23 +265,6 @@ const Index = () => {
                 </li>
               ))}
             </ul>
-          </div>
-        </section>
-
-        <section id="projects" ref={projRef} className="mt-12 animate-fade-in">
-          <h2 className="text-xl font-medium mb-6">Projects</h2>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {projects.map((p) => (
-              <Card key={p.name} className="hover-scale">
-                <CardContent className="p-4">
-                  <div className="font-medium">{p.name}</div>
-                  <p className="text-sm text-muted-foreground mt-1">{p.desc}</p>
-                  <a href={p.link} className="story-link text-sm mt-2 inline-block" aria-label={`View ${p.name}`}>
-                    View project
-                  </a>
-                </CardContent>
-              </Card>
-            ))}
           </div>
         </section>
 
