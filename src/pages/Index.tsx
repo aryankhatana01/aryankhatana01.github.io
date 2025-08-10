@@ -58,7 +58,7 @@ const skills = ["Python", "Java", "C/C++", "Javascript", "React", "Node.js", "SQ
 
 
 const education = [
-  { date: "2021 – 2025", degree: "B.Tech in Computer Science", school: "IIIT Delhi", desc: "", logo: "/logos/iiitd.png" },
+  { date: "2021 – 2025", degree: "B.Tech in Computer Science & Applied Mathematics", school: "IIIT Delhi", desc: "", logo: "/logos/iiitd.png" },
   { date: "2007 – 2021", degree: "CBSE", school: "Bluebells School International", desc: "", logo: "/logos/bbs.png" },
 ];
 
